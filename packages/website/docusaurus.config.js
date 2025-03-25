@@ -1,5 +1,5 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
-const chonkyPackage =  require( 'chonky/package.json');
+const chonkyPackage =  require( 'package.json');
 module.exports = {
   title: 'Chonky',
   tagline: 'A File Browser for React',

@@ -1,18 +1,50 @@
 {
-  "name": "root",
-  "private": true,
-  "workspaces": ["packages/*"],
+  "name": "chonky",
+  "version": "2.3.2",
+  "description": "A File Browser component for React",
+  "license": "MIT",
+  "dependencies": {
+    "chonky": "^2.3.2",
+    "chonky-icon-fontawesome": "^2.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^17.0.84",
+    "@types/react-dom": "^17.0.26",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1"
   },
-  "homepage": "https://chonky.io/",
-  "author": {
-    "name": "Timur Kuzhagaliyev",
-    "email": "tim.kuzh@gmail.com",
-    "url": "https://foxypanda.me/"
-  },
-  "resolutions": {
-    "**/typescript": "4.2.2",
-    "**/immer": "8.0.4"
+  "keywords": [
+    "file",
+    "chonky",
+    "file-dialog",
+    "file-browser",
+    "react-component"
+  ],
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
